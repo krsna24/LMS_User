@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6536DA72CA9BC510019BA5E /* LibraryUserDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6536DA62CA9BC510019BA5E /* LibraryUserDashboardView.swift */; };
+		E6536DA92CA9BC740019BA5E /* UserTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6536DA82CA9BC740019BA5E /* UserTab.swift */; };
+		E6536DAB2CA9BCA00019BA5E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6536DAA2CA9BCA00019BA5E /* HomeView.swift */; };
+		E6536DAD2CA9BCBF0019BA5E /* SearchBooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6536DAC2CA9BCBF0019BA5E /* SearchBooksView.swift */; };
+		E6536DAF2CA9BCD40019BA5E /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6536DAE2CA9BCD40019BA5E /* BookDetailView.swift */; };
+		E6536DB12CA9BCEB0019BA5E /* MyBooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6536DB02CA9BCEB0019BA5E /* MyBooksView.swift */; };
+		E6536DB32CA9BD240019BA5E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6536DB22CA9BD240019BA5E /* NotificationsView.swift */; };
+		E6536DB52CA9BD470019BA5E /* UserAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6536DB42CA9BD470019BA5E /* UserAccountView.swift */; };
+		E6536DB72CA9BD6C0019BA5E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6536DB62CA9BD6C0019BA5E /* Book.swift */; };
 		E6CF83D52C85AF370069DDBC /* LMS_UserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF83D42C85AF370069DDBC /* LMS_UserApp.swift */; };
 		E6CF83D72C85AF370069DDBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF83D62C85AF370069DDBC /* ContentView.swift */; };
 		E6CF83D92C85AF390069DDBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CF83D82C85AF390069DDBC /* Assets.xcassets */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E6536DA62CA9BC510019BA5E /* LibraryUserDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryUserDashboardView.swift; sourceTree = "<group>"; };
+		E6536DA82CA9BC740019BA5E /* UserTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTab.swift; sourceTree = "<group>"; };
+		E6536DAA2CA9BCA00019BA5E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E6536DAC2CA9BCBF0019BA5E /* SearchBooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBooksView.swift; sourceTree = "<group>"; };
+		E6536DAE2CA9BCD40019BA5E /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		E6536DB02CA9BCEB0019BA5E /* MyBooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksView.swift; sourceTree = "<group>"; };
+		E6536DB22CA9BD240019BA5E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		E6536DB42CA9BD470019BA5E /* UserAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountView.swift; sourceTree = "<group>"; };
+		E6536DB62CA9BD6C0019BA5E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		E6CF83D12C85AF370069DDBC /* LMS_User.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMS_User.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6CF83D42C85AF370069DDBC /* LMS_UserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMS_UserApp.swift; sourceTree = "<group>"; };
 		E6CF83D62C85AF370069DDBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +75,15 @@
 			children = (
 				E6CF83D42C85AF370069DDBC /* LMS_UserApp.swift */,
 				E6CF83D62C85AF370069DDBC /* ContentView.swift */,
+				E6536DA62CA9BC510019BA5E /* LibraryUserDashboardView.swift */,
+				E6536DA82CA9BC740019BA5E /* UserTab.swift */,
+				E6536DAA2CA9BCA00019BA5E /* HomeView.swift */,
+				E6536DAC2CA9BCBF0019BA5E /* SearchBooksView.swift */,
+				E6536DAE2CA9BCD40019BA5E /* BookDetailView.swift */,
+				E6536DB02CA9BCEB0019BA5E /* MyBooksView.swift */,
+				E6536DB22CA9BD240019BA5E /* NotificationsView.swift */,
+				E6536DB42CA9BD470019BA5E /* UserAccountView.swift */,
+				E6536DB62CA9BD6C0019BA5E /* Book.swift */,
 				E6CF83D82C85AF390069DDBC /* Assets.xcassets */,
 				E6CF83DD2C85AF390069DDBC /* Persistence.swift */,
 				E6CF83DF2C85AF390069DDBC /* LMS_User.xcdatamodeld */,
@@ -143,10 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6536DA72CA9BC510019BA5E /* LibraryUserDashboardView.swift in Sources */,
+				E6536DB12CA9BCEB0019BA5E /* MyBooksView.swift in Sources */,
+				E6536DAB2CA9BCA00019BA5E /* HomeView.swift in Sources */,
+				E6536DB52CA9BD470019BA5E /* UserAccountView.swift in Sources */,
+				E6536DB32CA9BD240019BA5E /* NotificationsView.swift in Sources */,
 				E6CF83DE2C85AF390069DDBC /* Persistence.swift in Sources */,
 				E6CF83D72C85AF370069DDBC /* ContentView.swift in Sources */,
+				E6536DAF2CA9BCD40019BA5E /* BookDetailView.swift in Sources */,
 				E6CF83D52C85AF370069DDBC /* LMS_UserApp.swift in Sources */,
+				E6536DA92CA9BC740019BA5E /* UserTab.swift in Sources */,
 				E6CF83E12C85AF390069DDBC /* LMS_User.xcdatamodeld in Sources */,
+				E6536DB72CA9BD6C0019BA5E /* Book.swift in Sources */,
+				E6536DAD2CA9BCBF0019BA5E /* SearchBooksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
